@@ -7,7 +7,6 @@ import ManagerLogin from 'pages/ManagerLogin/ManagerLogin';
 import ManagerMain from 'pages/ManagerMain/ManagerMain';
 import ManagerMapEditor from 'pages/ManagerMapEditor/ManagerMapEditor';
 import ManagerReservation from 'pages/ManagerReservation/ManagerReservation';
-import ManagerReservationEdit from 'pages/ManagerReservationEdit/ManagerReservationEdit';
 import ManagerSpaceEditor from 'pages/ManagerSpaceEditor/ManagerSpaceEditor';
 import PATH from './path';
 
@@ -60,7 +59,7 @@ export const PRIVATE_ROUTES: PrivateRoute[] = [
   },
   {
     path: PATH.MANAGER_RESERVATION_EDIT,
-    component: <ManagerReservationEdit />,
+    component: <ManagerReservation />,
     redirectPath: PATH.MANAGER_LOGIN,
   },
   {
