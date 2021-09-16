@@ -30,8 +30,7 @@
     "storybook": "start-storybook -s ./src/assets -p 6006",
     "build-storybook": "build-storybook -s ./src/assets",
     "test": "jest --watch --passWithNoTests",
-    "test:ci": "jest --passWithNoTests",
-    "prepare": "cd .. && husky install frontend/.husky && cd frontend"
+    "test:ci": "jest --passWithNoTests"
   },
   "dependencies": {
     "axios": "^0.21.1",
